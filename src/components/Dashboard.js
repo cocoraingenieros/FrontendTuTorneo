@@ -1,16 +1,11 @@
 import React from "react";
-//import ContactList from "./components/ContactList";
-
-    
 
 
 export default function Dashboard() {
   
   return (
     <>
-    
-    
-    
+       
       <div>
         <table className="table">
           <thead> 
@@ -45,10 +40,24 @@ export default function Dashboard() {
         <button
           type="submit"
           className="btn btn-primary"
-
-        >SALIR</button>
+        > GUARDAR </button>
+      
+      <button
+          type="submit"
+          className="btn btn-primary"
+        > ARBITROS </button>
+        <button
+          type="submit"
+          className="btn btn-primary"
+        > ESTADISTICAS </button>
+        <button
+          type="submit"
+          className="btn btn-primary"
+        > SALIR </button>
       </div>
+      
     </>
   );
 }
+
 
