@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function Login({handleLogin, handleEmail, handlePassword}) {
 
   return (
@@ -12,7 +13,7 @@ export default function Login({handleLogin, handleEmail, handlePassword}) {
             style={{ borderRadius: "1rem" }}
           >
             <div className="card-body p-5 text-center">
-              <h3 className="mb-5">Iniciar Sesion</h3>
+              <h3 className="mb-5">Iniciar Sesion tutorneo</h3>
               <div className="form-outline mb-4">
                 <input
                     type="email"

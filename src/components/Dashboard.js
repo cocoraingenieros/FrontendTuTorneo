@@ -1,11 +1,19 @@
 import React from "react";
+//import ContactList from "./components/ContactList";
+
+    
+
 
 export default function Dashboard() {
+  
   return (
     <>
+    
+    
+    
       <div>
         <table className="table">
-          <thead>
+          <thead> 
             <tr>
               <th scope="col">#</th>
               <th scope="col">Equipo</th>
@@ -43,3 +51,4 @@ export default function Dashboard() {
     </>
   );
 }
+
